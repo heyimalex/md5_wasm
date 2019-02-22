@@ -1,0 +1,12 @@
+[package]
+name = "md5_wasm"
+version = "0.1.0"
+authors = ["Alex Guerra <alex@heyimalex.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+md5 = "0.6.1"

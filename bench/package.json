@@ -1,0 +1,15 @@
+{
+  "name": "md5_wasm_bench",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "jest": "^24.1.0",
+    "md5": "^2.2.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "bench": "node bench.js"
+  }
+}
